@@ -1,0 +1,47 @@
+html {
+    background: rgb(5,73,32) no-repeat center center fixed;
+    background: linear-gradient(140deg, rgba(5,73,32,1) 0%, rgba(0,228,144,1) 100%) no-repeat center center fixed;
+    font-family: 'Sora', sans-serif;
+    color: white;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    height: 100%;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 99%;
+}
+
+a {
+    background-color: rgba(31, 207, 66, 0.7);
+    text-decoration: none;
+    color: white;
+    padding: 4px;
+    border-radius: 6px;
+    transition: background-color 0.3s ease, transform 0.3s;
+}
+
+a:hover {
+    background-color: rgba(31, 207, 66, 1);
+    transform: translateY(-4.25%);
+}
+
+#container {
+    background: rgba(0, 38, 15, 0.1) no-repeat center center fixed;
+    padding: 3px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 800px;
+}
+
+#copyright {
+    color: rgba(50,50,50,0.3);
+    font-size: 12px;
+}
